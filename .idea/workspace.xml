@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db21150c-eafd-4932-95ec-53fd37b38de0" name="Changes" comment="readme fix">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/scooter/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/scooter/Order.java" afterDir="false" />
+    <list default="true" id="db21150c-eafd-4932-95ec-53fd37b38de0" name="Changes" comment="order test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/scooter/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/scooter/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,48 +39,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="ru.yandex.scooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPage">
-    <configuration name="MainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderPageTest">
+    <configuration name="All in SamokatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamokatTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamokatTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.yandex.scooter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.scooter" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.scooter.MainPage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.Question" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.Question" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamokatTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.yandex.scooter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.scooter" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.scooter.MainPage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
       <option name="METHOD_NAME" value="Question" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -100,46 +115,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamokatTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.yandex.scooter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.scooter" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.scooter.Order" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderPageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderPageTest.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamokatTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.yandex.scooter.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.scooter" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.scooter.Order" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Order.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamokatTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.yandex.scooter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.scooter" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.scooter.Order" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderPageTest" />
       <option name="METHOD_NAME" value="testOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPage" />
-        <item itemvalue="JUnit.MainPage.Question" />
-        <item itemvalue="JUnit.Order" />
-        <item itemvalue="JUnit.Order.testOrder" />
-        <item itemvalue="JUnit.Order (1)" />
+        <item itemvalue="JUnit.OrderPageTest" />
+        <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.All in SamokatTest" />
+        <item itemvalue="JUnit.MainPageTest.Question" />
+        <item itemvalue="JUnit.OrderPageTest.testOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665306565224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pom.xml">
+      <created>1665306708913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665306708913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="idea xmls">
+      <created>1665306797794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665306797794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="main page test">
+      <created>1665306865373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665306865373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="order test">
+      <created>1665306882954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665306882954</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +224,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="readme fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme fix" />
+    <MESSAGE value="pom.xml" />
+    <MESSAGE value="idea xmls" />
+    <MESSAGE value="main page test" />
+    <MESSAGE value="order test" />
+    <option name="LAST_COMMIT_MESSAGE" value="order test" />
   </component>
 </project>
